@@ -21,14 +21,33 @@
       "x": 0,
       "y": 0,
      "bullet": {     
-  "type": "PointBulletType"
-  "maxRange": 100
-  "damage": 7000000
-  "pierce": true
-  "pierceArmor": true
-  "reflectable": false
-  "width": 20
-  "height": 20
+  
+"type": "PointBulletType",
+      "trailEffect": {
+        "type": "ParticleEffect",
+        "particles": 0,
+        "rotWithParent": true,
+        "followRotation": true,
+        "line": true,
+        "length": 10,
+        "colorFrom": "ff0000ff",
+        "colorTo": "11000011",
+        "sizeFrom": 0.1,
+        "sizeTo": 10,
+        "hitEffect": "massiveExplosion",
+        "despawnEffect": "massiveExplosion"
+      },
+      "speed": 12,
+      "damage": 7000000,
+      "splashDamage": 777,
+      "splashDamageRadius": 2,
+      "ammoMultiplier": 8000,
+      "width": 6,
+      "height": 10,
+      "pierce": true,
+      "pierceBuilding": true,
+      "buildingDamageMultiplier": 777
+
            }
     }
   ]

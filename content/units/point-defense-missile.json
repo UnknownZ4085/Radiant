@@ -1,11 +1,11 @@
 {
-  "name": "point-defense",
+  "name": "point-defense-missile",
   "template": "MissileUnitType",
   "type": "missile",
   "lifetime": 600,
   "speed": 0,
   "rotateSpeed": 0
-  "flying": true,
+  "flying": false,
   "outlines": false,
   "deathExplosionEffect": "massiveExplosion"
   "circleTarget": false

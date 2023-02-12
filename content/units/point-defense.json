@@ -4,11 +4,12 @@
   "type": "missile",
   "lifetime": 120,
   "speed": 7,
-  "rotateSpeed": 0
+  "drawCell": false
+  "rotateSpeed": 10
   "flying": true,
   "outlines": false,
   "deathExplosionEffect": "massiveExplosion"
-  "circleTarget": false
+  "circleTarget": true
   "weapons": [
     {
       "shootOnDeath": true,

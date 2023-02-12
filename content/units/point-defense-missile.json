@@ -2,7 +2,7 @@
   "name": "point-defense-missile",
   "template": "MissileUnitType",
   "type": "missile",
-  "lifetime": 600,
+  "lifetime": 30,
   "speed": 0,
   "rotateSpeed": 0
   "flying": false,

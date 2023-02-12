@@ -6,6 +6,7 @@
         "canHeal": true,
         "drawCell": false
         "lowAltitude": false,
+        "useUnitCap": false
 	"hittable": true
 	"killable": true
 	"targetable": true

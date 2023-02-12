@@ -104,7 +104,7 @@
                 {
                 "type": "UnitSpawnAbility"
                 "spawnEffect": "massiveExplosion"
-                "timer": 10
+                "timer": 18000.0000000007
                 "unit": "radiant"
                 },
         

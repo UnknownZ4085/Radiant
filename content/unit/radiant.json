@@ -1,0 +1,42 @@
+{
+        "name": "Radiant"
+        "sprite": "RX-radiant"
+        "description": "[RED]Unknown signals detected"
+        "type": "flying",
+        "canHeal": true,
+        "lowAltitude": false,
+	"hittable": true
+	"killable": true
+	"targetable": true
+        "canBoost": false
+        "speed": 0.1,
+        "accel": 0.1,
+        "drag": 1.2,
+        "flying": true,
+        "health": 1000000000,
+        "hitSize": 128,
+        "armor": 200,
+        "mineSpeed": 0,
+        "buildSpeed": 21474836482147483648214748364821474836482147483648214748364821474836481,
+        "mineTier": 0,
+        "itemCapacity": 999999999999999999999999,
+        "range": 10000,
+        "targetAir": true,
+        "immunities": [ "burning", "freezing", "melting", "unmoving", "blooped", "sapped", "electrified", "spore-slowed", "shocked", "tarred", ],
+	"faceTarget": false,
+	    "weapons": [
+        
+],
+
+   "abilities": [
+ 	    {
+              "type": "SpawnDeathAbility",
+              "amount": 8,
+        "faceOutwards": true
+        "unit": "toxopid"
+        },
+        
+		   ]
+    
+    
+}

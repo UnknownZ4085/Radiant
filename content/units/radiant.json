@@ -9,8 +9,8 @@
 	"killable": true
 	"targetable": true
         "canBoost": false
-        "speed": 0.1,
-        "accel": 0.1,
+        "speed": 0.5,
+        "accel": 1,
         "drag": 1.2,
         "flying": true,
         "health": 1000000000,
@@ -25,7 +25,72 @@
         "immunities": [ "burning", "freezing", "melting", "unmoving", "sapped", "electrified", "spore-slowed", "shocked", "tarred", ],
 	"faceTarget": false,
 	    "weapons": [
+        {    
+     "name": "bomb"
+     "mirror": true
+      "recoil": 0.1
+      "targetAir": true
+      "shake": 0
+      "rotateSpeed": 10000000000000000
+      "unitSort": "strongest"
+      "rotate": true
+      "x": 5
+      "y": 0
+      "shoot": {
+        "type": "ShootAlternate",
+        "shots": 2,
+        "barrels": 1,
+        "spread": 5,
+        "shotDelay": 0,
+      },
+      
+      //how long it will take until this weapon can shoot again
+      "reload": 20
+    
+      //inaccuracy of the bullets spawned by this weapon in °
+      "inaccuracy": 0,
+      
+      
+      //parameters for the bullet, including it's type, speed, damage, etc.   
+       "bullet": {
+       "instantDisappear": true,
+       "spawnUnit": "RX-point-defense"
+           }
         
+        },
+           {    
+     "name": "bomb"
+     "mirror": true
+      "recoil": 0.1
+      "targetAir": true
+      "shake": 0
+      "rotateSpeed": 10000000000000000
+      "unitSort": "strongest"
+      "rotate": true
+      "x": 0
+      "y": 5
+      "shoot": {
+        "type": "ShootAlternate",
+        "shots": 2,
+        "barrels": 1,
+        "spread": 5,
+        "shotDelay": 0,
+      },
+      
+      //how long it will take until this weapon can shoot again
+      "reload": 20
+    
+      //inaccuracy of the bullets spawned by this weapon in °
+      "inaccuracy": 0,
+      
+      
+      //parameters for the bullet, including it's type, speed, damage, etc.   
+       "bullet": {
+       "instantDisappear": true,
+       "spawnUnit": "RX-point-defense"
+           }
+        
+        }
 ],
 
    "abilities": [

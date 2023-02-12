@@ -87,7 +87,7 @@
       //parameters for the bullet, including it's type, speed, damage, etc.   
        "bullet": {
        "instantDisappear": true,
-       "spawnUnit": "RX-point-defense"
+       "spawnUnit": "point-defense"
            }
         
         }

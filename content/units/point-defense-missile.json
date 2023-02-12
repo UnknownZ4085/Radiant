@@ -27,7 +27,7 @@
       "trailEffect": {
         "type": "ParticleEffect",
         "particles": 0,
-        "lifetime" 1
+        "lifetime": 1
         "rotWithParent": true,
         "followRotation": true,
         "line": true,

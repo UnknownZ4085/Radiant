@@ -1,10 +1,7 @@
 {
         "name": "Radiant"
         "sprite": "RX-radiant"
-        "description": "[RED]UNKNOWN SIGNALS DETECTED
-        [white] Satellite Conditions: [yellow]???
-        [crimson]UNKNOWN SPACECRAFT DETECTED
-        [white]Threath Level: [orange] UNKNOWN"
+        "description": "[RED]UNKNOWN SIGNALS DETECTED     [white] Satellite Conditions: [yellow]???       [crimson]UNKNOWN SPACECRAFT DETECTED     [white]Threath Level: [orange] UNKNOWN"
         "type": "flying",
         "canHeal": true,
         "drawCell": false

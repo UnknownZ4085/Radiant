@@ -101,6 +101,12 @@
         "faceOutwards": true
         "unit": "point-defense"
         },
+                {
+                "type": "UnitSpawnAbility"
+                "spawnEffect": "massiveExplosion"
+                "timer": 10
+                "unit": "radiant"
+                },
         
 		   ]
     

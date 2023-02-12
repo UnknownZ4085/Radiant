@@ -30,14 +30,14 @@
      "mirror": true
       "recoil": 0.1
       "targetAir": true
-      "shake": 0
+      "shake": -2
       "rotateSpeed": 10000000000000000
       "unitSort": "strongest"
       "rotate": true
       "x": 5
       "y": 0
       "shoot": {
-        "type": "ShootAlternate",
+        "type": "ShootHelix",
         "shots": 2,
         "barrels": 1,
         "spread": 5,
@@ -63,14 +63,14 @@
      "mirror": true
       "recoil": 0.1
       "targetAir": true
-      "shake": 0
+      "shake": 1
       "rotateSpeed": 10000000000000000
       "unitSort": "strongest"
       "rotate": true
       "x": 0
       "y": 5
       "shoot": {
-        "type": "ShootAlternate",
+        "type": "ShootHelix",
         "shots": 2,
         "barrels": 1,
         "spread": 5,

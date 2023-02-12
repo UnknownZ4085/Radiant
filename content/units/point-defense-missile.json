@@ -1,0 +1,28 @@
+{
+  "name": "point-defense",
+  "template": "MissileUnitType",
+  "type": "missile",
+  "lifetime": 600,
+  "speed": 0,
+  "rotateSpeed": 0
+  "flying": true,
+  "outlines": false,
+  "deathExplosionEffect": "massiveExplosion"
+  "circleTarget": false
+  "weapons": [
+    {
+      "shootOnDeath": true,
+  "killShooter": true,
+      "reload": 1,
+      "shootCone": 360,
+      "shots": 10,
+      "rotate": true,
+      "mirror": true,
+      "x": 0,
+      "y": 0,
+     "bullet": {     
+  "type": "PointBulletType"
+           }
+    }
+  ]
+}

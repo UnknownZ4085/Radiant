@@ -22,7 +22,7 @@
         "itemCapacity": 999999999999999999999999,
         "range": 10000,
         "targetAir": true,
-        "immunities": [ "burning", "freezing", "melting", "unmoving", "blooped", "sapped", "electrified", "spore-slowed", "shocked", "tarred", ],
+        "immunities": [ "burning", "freezing", "melting", "unmoving", "sapped", "electrified", "spore-slowed", "shocked", "tarred", ],
 	"faceTarget": false,
 	    "weapons": [
         

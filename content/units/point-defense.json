@@ -19,17 +19,10 @@
       "mirror": true,
       "x": 0,
       "y": 0,
-      "bullet": {
-        "type": "ExplosionBulletType"
-        "killShooter": true,
-        "instantDisappear": true,
-        "hittable": false,
-        "collidesAir": true,
-        "splashDamage": 700000,
-        "splashDamageRadius": 480,
-        "speed": 2,
-        "collidesTiles": false
-      }
+     "bullet": {
+       "instantDisappear": true,
+       "spawnUnit": "point-defense-missile"
+           }
     }
   ]
 }

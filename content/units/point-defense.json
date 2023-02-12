@@ -12,11 +12,12 @@
   "weapons": [
     {
       "shootOnDeath": true,
-      "reload": 1,
+      "reload": 2,
       "shootCone": 0,
       "shots": 10,
       "rotate": true,
       "mirror": true,
+      "alwaysShooting": true,
       "x": 0,
       "y": 0,
      "bullet": {

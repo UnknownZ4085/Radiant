@@ -2,19 +2,19 @@
   "name": "point-defense",
   "template": "MissileUnitType",
   "type": "missile",
-  "lifetime": 100,
-  "speed": 10,
-  "rotationSpeed": 0
+  "lifetime": 120,
+  "speed": 7,
+  "rotateSpeed": 0
   "flying": true,
   "outlines": false,
   "deathExplosionEffect": "massiveExplosion"
   "circleTarget": false
   "weapons": [
     {
-      "shootOnDeath": false,
-      "reload": 10,
+      "shootOnDeath": true,
+      "reload": 1,
       "shootCone": 0,
-      "shots": 1,
+      "shots": 10,
       "rotate": true,
       "mirror": true,
       "x": 0,

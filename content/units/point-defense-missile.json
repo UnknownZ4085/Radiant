@@ -4,6 +4,7 @@
   "type": "missile",
   "lifetime": 30,
   "speed": 0,
+  "drawCell": false
   "rotateSpeed": 0
   "flying": false,
   "outlines": false,

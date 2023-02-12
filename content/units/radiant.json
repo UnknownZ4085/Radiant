@@ -4,6 +4,7 @@
         "description": "[RED]Unknown signals detected"
         "type": "flying",
         "canHeal": true,
+        "drawCell": false
         "lowAltitude": false,
 	"hittable": true
 	"killable": true
@@ -96,9 +97,9 @@
    "abilities": [
  	    {
               "type": "SpawnDeathAbility",
-              "amount": 8,
+              "amount": 80,
         "faceOutwards": true
-        "unit": "toxopid"
+        "unit": "point-defense"
         },
         
 		   ]

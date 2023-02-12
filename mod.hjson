@@ -1,0 +1,13 @@
+{
+  name: RX,
+  displayName: Radiant,
+  description: Unbalanced mod with an unbalanced unit
+  minGameVersion: 136,
+  author: 
+    ''' 
+    
+    Owner: UnknownZ4085
+    
+    '''
+  version: 0.7.6
+}
